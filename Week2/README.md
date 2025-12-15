@@ -105,8 +105,6 @@ Record:
 * How much of the work each thread performs
 * Which configurations result in correct output
 
-This builds intuition for launch configurations and scalability.
-
 ---
 
 ### **Task 3 — (Optional) Profiling First Look**
@@ -118,8 +116,6 @@ Use simple timers:
 * Python `time.perf_counter()` if embedding CUDA in PyTorch/CuPy
 
 Record execution time for vector addition across different block sizes.
-
-This sets the stage for serious profiling in Week 3.
 
 ---
 
